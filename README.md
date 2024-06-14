@@ -1,9 +1,10 @@
-# instagram-clone
+# Instagram-clone
 
-##Programming languages used
-1.HTML
-2.CSS
+## Programming languages used
+1. HTML
+2. CSS
 
-##[output](output.png)
+# Output
+![output](output.png)
 
-!Give me a star!
+⭐Give me a star!
