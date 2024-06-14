@@ -1,31 +1,63 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <title>Document</title>
-    <link rel="stylesheet" href="styling.css">
-<head>
+      <head>
+            <title>Instagram Clone</title>
+            <link rel="stylesheet" href="style.css">
+      </head>
 
-<body>
-    <div class="main">
-        <div class="login-form">
-            <h3 class="title">Welcome</h3>
-            <form class="form">
-                <div class="input-group sucess">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
-                    <span class="msg">Valid email</span>
-                </div>
-                <div class="input-group error">
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password">
-                    <span class="msg">u cant even remember that?</span>
+      <body>
+            <div class="main-container">
+                  <div class="image-container">
+                        <img src="phone-mockup.png"
+                              alt="instagram mockup">
+                  </div>
+                  <div class="right-container">
+                        <div class="first-one">
+                              <h1><img src="image.png" alt="instagram" width="200px"</h1>
+                              <form>
+                                    <input class="input-field" type="password"
+                                          placeholder="Phone number, username, or email"><br>
+                                    <input class="input-field" type="password"
+                                          placeholder="password"><br>
+                                    <input class="login-button" type="submit" value="Log In"><br>
+                              </form>
+                              <div class="or-text">------------------------------ OR ------------------------------</div>
+                              <div class="login-forgot">
+                                    <a class="fb-login" href="#">Log in with
+                                          Facebook</a><br><br>
+                                    <a class="forgot" href="#">Forgot password?</a>
+                              </div>
+                        </div>
+                        <div class="sign-up">
+                              <p>Don't have an account? <a href="#">Sign up</a></p>
+                        </div>
+                        <div class="get-app">
+                              <div>Get the app</div>
 
-                    <button type="submit" class="login button">Log in</button>
-                </div>
-            </form>
-        </div>
-    </div>
-</body>
+                              <img src="google-play.png"
+                                    alt="google play">
+                              <img src="microsoft.png" alt="microsoft">
+                        </div>
+                  </div>
+            </div>
+            <div class="footer"><!--for footer-->
+                  <div class="footer">
+                        <div class="meta-footer">
+                        <p>Meta About Blog Jobs Help API Privacy Terms Locations Instagram Lite Threads Contact Uploading & Non-Users</p>
+                        </div>
+                        <br>
+                        <select name="language" id="language">
+                              <option value="Nepali">Nepali</option>
+                              <option
+                                    value="English">English</option>
+                              <option value="Hindi">Hindi</option>
+                              <option
+                                    value="Chinese">Chinese</option>
+                        </select>
+                        <p>&copy; 2024 Instagram from Meta</p>
+                  </div>
 
-</html>
+            </div>
+
+      </body>
