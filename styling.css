@@ -123,4 +123,18 @@ a{
     
   }
 
-  
+  #language{
+      border: none ;
+      outline: none;
+      display: inline-flex;
+  }
+
+  select{
+      padding: 0 0 0 900px;
+  }
+
+  .copyright{
+      float: right;
+      padding: 0 900px 0 0;
+      
+  }
